@@ -1,0 +1,344 @@
+/*..................... nav bar start...............  */
+#gwsc{
+    display: flex;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(117, 177, 117);
+    padding: 15px 10px;
+}
+#gwsc > div > h2{
+    font-family: cursive;
+    font-weight: bold;
+    margin: 0 auto;
+}
+#gwsc > input{
+    padding: 10px;
+    border: 2px solid rgb(255, 229, 194);
+}
+#view-count{
+    display: flex;
+}
+#view-count > label,
+#view-count > a{
+    padding: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+
+#nav{
+    background-color: rgb(33, 112, 33);
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+#nav > div > a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+#nav > div > a:hover{
+    color: rgb(126, 203, 233);
+}
+.nav-link.active{
+    background-color: rgb(126, 203, 233);
+    padding: 10px !important;
+    color: black !important;
+}
+/*..................... nav bar end.....................  */
+
+/* ..................... image slider start .................. */
+html,
+body{
+    position: relative;
+    height: 100%;
+}
+.swiper{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*..................... image slider end .................. */
+
+/*..................... about us start .................. */
+#about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to bottom,  #b2e1ff 0%,#66b6fc 100%);
+    margin-bottom: 30px;
+}
+#about > img{
+    width: 40%;
+    border-radius: 40px;
+    margin-left: 30px;
+}
+#about-text{
+    text-align: center;
+    display: block;
+}
+#about-text > button {
+    background-color: green;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+}
+/*..................... about us end .................. */
+
+/*..................... popular packages start .................. */
+#popular > h3{
+    background-color: rgb(33, 112, 33);
+    color: white;
+    text-align: center;
+    padding: 16px;
+    margin-bottom: 0;
+}
+#packages{
+    background-color: rgb(117, 177, 117);
+}
+#oasis,#marina{ 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 35px;
+}
+#oasis > img,
+#marina > img{
+    width: 40%;
+}
+#oasis-text{
+    margin-left: 40px;
+    line-height: 25px;
+}
+#marina-text{
+    margin-right: 40px;
+    line-height: 25px;
+}
+#oasis-text > p,
+#marina-text > p{
+    text-align: left;
+}
+#iframe{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 172, 194);
+    padding: 50px;
+}
+/*..................... popular packages end .................. */
+
+/*..................... footer start .................. */
+#camp{
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+    justify-content: space-evenly;
+    background-color: rgb(111, 189, 111);
+    padding: 16px 20px 0;
+}
+#camp > div > h3{
+    font-family: cursive;
+    font-weight: bold;
+    width: 200px;
+}
+#footer-section > a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+    font-weight: 100;
+    line-height: 30px;
+}
+#follow{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(111, 189, 111);
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#follow > div > a{
+    padding: 0 10px;
+}
+#copy{
+    text-align: center;
+    align-items: center;
+    margin-top: 0;
+    background-color: rgb(33, 112, 33);
+    color: white;
+    padding: 3px 0;
+}
+#footer-section > a:hover{
+    color: blue;
+}
+/*..................... footer end .................. */
+
+/*..................... information start .................. */
+#information{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+#information > div{
+    border: 1px solid white;
+    box-shadow: 3px 3px 4px rgb(207, 205, 205);
+    margin: 20px;
+    width: 100%;
+}
+#information > div > img{
+    width: 100%;
+    height: 200px;
+}
+#information > div > p{
+    margin-top: 8px;
+}
+#information > div > button{
+    display: block;
+    width: 100%;
+    background-color: rgb(94, 94, 251);
+    color: white;
+    padding: 10px 0;
+    border: none;
+}
+/*..................... information end .................. */
+
+/*..................... features page & local attractions start .................. */
+#features,
+#local-attraction{
+    margin-top: -20px;
+}
+#features-content > h2,
+#local-content > h2{
+    background-color: rgb(189, 189, 246);
+    text-align: center;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+#features-image,
+#local-image{
+    display: flex;
+    background-color: rgb(150, 232, 150);
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+#features-image > div,
+#local-image > div{
+    margin: 20px;
+    width: 100%;
+    text-align: center;
+}
+#features-image > div > img,
+#local-image > div > img{
+    width: 100%;
+    height: 200px;
+}
+/*..................... features page & local attractions end .................. */
+
+/*.....................contact us start .................. */
+#contact{
+    background-color: rgb(170, 255, 170);
+    display: flex;
+}
+#contact-form{
+    background-color: rgb(117, 202, 117);
+    width: 50%;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+}
+#contact-form input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 90%;
+}
+#contact-form textarea{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+#contact-info{
+    width: 40%;
+    margin-top: 20px;
+}
+#contact-item{
+    background-color: rgb(126, 203, 233);
+    padding-bottom: 20px;
+}
+#contact-item > h3{
+    text-align: center;
+    padding: 10px 0;
+}
+#contact-item > div{
+    margin-left: 30px;
+}
+#contact-btn{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+#contact-btn > button{
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 0 20px;
+}
+/*.....................contact us end .................. */
+
+/*.....................privacy policy start end .................. */
+#privacy{
+    display: block;
+    margin-top: -20px;
+    text-align: center;
+}
+#privacy > div > h2{
+    background-color: rgb(126, 203, 233);
+    text-align: center;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+#privacy-text{
+    background-color: rgb(170, 255, 170);
+    margin-top: -20px;
+}
+#privacy-text > p{
+    display: block;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+}
+/*.....................privacy policy end .................. */
+
+
+
+
+
+
+
+
